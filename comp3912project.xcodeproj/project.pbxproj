@@ -61,6 +61,7 @@
 		04ADC0B7192B06EB00246F00 /* comp3912projectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "comp3912projectTests-Info.plist"; sourceTree = "<group>"; };
 		04ADC0B9192B06EB00246F00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04ADC0BB192B06EB00246F00 /* comp3912projectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comp3912projectTests.m; sourceTree = "<group>"; };
+		04ADC0C5192B110E00246F00 /* comp3912project 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "comp3912project 2.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -472,6 +473,7 @@
 				04ADC0C1192B06EB00246F00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04ADC0C2192B06EB00246F00 /* Build configuration list for PBXNativeTarget "comp3912projectTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +482,7 @@
 				04ADC0C4192B06EB00246F00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -487,9 +490,10 @@
 		04ADC09E192B06EB00246F00 /* comp3912project.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				04ADC0C5192B110E00246F00 /* comp3912project 2.xcdatamodel */,
 				04ADC09F192B06EB00246F00 /* comp3912project.xcdatamodel */,
 			);
-			currentVersion = 04ADC09F192B06EB00246F00 /* comp3912project.xcdatamodel */;
+			currentVersion = 04ADC0C5192B110E00246F00 /* comp3912project 2.xcdatamodel */;
 			path = comp3912project.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
