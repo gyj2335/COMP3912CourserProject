@@ -25,6 +25,7 @@
 		04ADC0B2192B06EB00246F00 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ADC08D192B06EB00246F00 /* CoreData.framework */; };
 		04ADC0BA192B06EB00246F00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04ADC0B8192B06EB00246F00 /* InfoPlist.strings */; };
 		04ADC0BC192B06EB00246F00 /* comp3912projectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ADC0BB192B06EB00246F00 /* comp3912projectTests.m */; };
+		04ADC0C7192B33C800246F00 /* Canada.png in Resources */ = {isa = PBXBuildFile; fileRef = 04ADC0C6192B33C800246F00 /* Canada.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		04ADC0B9192B06EB00246F00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04ADC0BB192B06EB00246F00 /* comp3912projectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comp3912projectTests.m; sourceTree = "<group>"; };
 		04ADC0C5192B110E00246F00 /* comp3912project 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "comp3912project 2.xcdatamodel"; sourceTree = "<group>"; };
+		04ADC0C6192B33C800246F00 /* Canada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Canada.png; path = "/Library/Application Support/Apple/iChat Icons/Flags/Canada.png"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			children = (
 				04ADC091192B06EB00246F00 /* comp3912project-Info.plist */,
 				04ADC092192B06EB00246F00 /* InfoPlist.strings */,
+				04ADC0C6192B33C800246F00 /* Canada.png */,
 				04ADC095192B06EB00246F00 /* main.m */,
 				04ADC097192B06EB00246F00 /* comp3912project-Prefix.pch */,
 			);
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04ADC0A8192B06EB00246F00 /* Images.xcassets in Resources */,
+				04ADC0C7192B33C800246F00 /* Canada.png in Resources */,
 				04ADC094192B06EB00246F00 /* InfoPlist.strings in Resources */,
 				04ADC09D192B06EB00246F00 /* Main.storyboard in Resources */,
 			);

@@ -7,10 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MobileCoreServices/MobileCoreServices.h>
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController <NSFetchedResultsControllerDelegate,UIImagePickerControllerDelegate,
+UINavigationControllerDelegate>
 
 @property (strong, nonatomic) id detailItem;
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+
+@property BOOL newMedia;
+- (IBAction)useCamera:(id)sender;
+- (IBAction)useCameraRoll:(id)sender;
 @end
